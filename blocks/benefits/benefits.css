@@ -2,11 +2,7 @@
     display: grid;
     grid-template-rows: min-content min-content 1fr;
     justify-content: stretch;
-    background: #240000 center no-repeat;
-    background-image: url(../../images/header.png);
-    background-size: cover;
     min-height: 600px;
-    color: #fff;
     padding: 60px 100px;
     box-sizing: border-box;
     gap: 40px;

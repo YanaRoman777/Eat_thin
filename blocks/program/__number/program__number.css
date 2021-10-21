@@ -1,4 +1,5 @@
 .program__number {
+	font-family: 'Caveat Variable';
     position: absolute;
     top: -30px;
     left: 0px;
@@ -8,7 +9,7 @@
     margin-inline-end: 0px;
     font-weight: bold;
     font-size: 200px;
-    color: #fcb000;
+    color: #e700fc;
     opacity: 0.3;
 }
 

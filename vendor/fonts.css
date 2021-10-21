@@ -15,3 +15,21 @@
 		url(../fonts/ProximaNova-Bold.ttf) format('truetype');
 	font-weight: bold;
 }
+@font-face {
+	font-family: 'Marck Script';
+	src: 
+		url(..//fonts/MarckScript-Regular.ttf) format('truetype');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Caveat';
+	src: 
+		url(..//fonts/Caveat-Bold.ttf) format('truetype');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Caveat Variable';
+	src: 
+		url(..//fonts/Caveat-VariableFont_wght.ttf) format('truetype');
+	font-weight: bold;
+}

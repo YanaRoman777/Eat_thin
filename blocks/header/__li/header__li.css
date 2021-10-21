@@ -1,0 +1,8 @@
+.header__li {
+    margin-top: 10px;
+    color: rgb(252, 2, 2);
+}
+.header__li span {
+    text-decoration: line-through;
+    color: #240000;
+}

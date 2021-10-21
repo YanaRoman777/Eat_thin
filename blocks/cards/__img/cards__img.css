@@ -1,9 +1,13 @@
 .cards__img {
-    width: 80px;
     z-index: 2;
+    max-width: 450px;
+    grid-area: img;
+    align-self: center;
+    justify-self: center;
 }
-@media all and (max-width: 800px)  {
+@media all and (max-width: 700px)  {
     .cards__img {
-        width: 50px;
+        object-fit:contain;
+        width: 100%;
     }
 }

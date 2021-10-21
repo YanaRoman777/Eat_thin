@@ -3,9 +3,10 @@
   font-family: 	'Proxima Nova', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
-  background: #fff;
-  color: #000;
+  color: #240000;
   max-width: 1920px;
+  background: linear-gradient(
+  140deg, rgba(199, 107, 123, 0.2) 2%, rgba(210, 188, 192, .05) 99%);
 }
 .page_thanks {
   display: grid;

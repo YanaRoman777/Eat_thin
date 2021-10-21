@@ -1,28 +1,17 @@
 .program__paragraph {
-    margin-block-start: 0px;
+    margin-block-start: 10px;
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: normal;
     font-size: 22px;
     line-height: 25px;
-    color: #240000;
+    text-align: center;
 }
 
-.program__paragraph  span {
-    font-size: 26px;
-    text-transform: uppercase;
+.program__paragraph span {
+    color: #e700fc;
     font-weight: bold;
-}
-.program__item:last-of-type .program__paragraph {
-    align-self: start;
-    font-weight: bold;
-}
-.program__item:last-of-type .program__paragraph span {
-    color: #fcb000;
-    text-transform:none;
-    font-weight: bold;
-    font-size: 22px;
 }
 
 @media all and (max-width: 1500px)  {
@@ -30,17 +19,11 @@
         font-size: 20px;
         line-height: 23px;
     }
-    .program__paragraph  span {
-        font-size: 24px;
-    }
 }
 @media all and (max-width: 1200px)  {
     .program__paragraph{
         font-size: 18px;
         line-height: 21px;
-    }
-    .program__paragraph  span {
-        font-size: 22px;
     }
 }
 @media all and (max-width: 800px)  {
@@ -48,17 +31,10 @@
         font-size: 16px;
         line-height: 19px;
     }
-    .program__paragraph  span {
-        font-size: 20px;
-    }
 }
 
 @media all and (max-width: 500px)  {
     .program__paragraph{
         font-size: 14px;
-    }
-        
-    .program__paragraph  span {
-        font-size: 15px;
     }
 }

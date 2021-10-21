@@ -10,7 +10,8 @@
     padding: 20px;
     box-sizing: border-box;
     border-radius: 30px;
-    background-color: rgba(255, 233, 212, 0.826);
+    background-color: rgba(250, 121, 250, 0.4);
+    box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8);
 }
 
 .form__input:first-child {

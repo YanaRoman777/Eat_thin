@@ -4,8 +4,8 @@
     height: 54px;
     border: none;
     border-radius: 30px;
-    background-color: #fcb000;
-    box-shadow: 5px 5px 18px rgba(255, 244, 84, 0.8);
+    background-color: rgb(172, 110, 122);
+    box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8);
     border-color: transparent;
     border-style: solid;
     justify-self: center;
@@ -13,15 +13,16 @@
     line-height: 24px;
     color: #000;
     text-decoration: none;
-    padding-top: 15px;
     box-sizing: border-box;
     text-align: center;
     justify-self: center;
+    text-transform: uppercase;
+    vertical-align: center;
 }
 
 .button:hover {
     border: none;
-    background-color: #fcbc26;
+    box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8);
     cursor:pointer;
 }
 

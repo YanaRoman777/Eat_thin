@@ -6,45 +6,63 @@
     position: relative;
     padding: 20px;
     width: 100%;
-    max-width: 797px;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
     padding: 30px;
     box-sizing: border-box;
-    box-shadow: 5px 5px 18px rgba(36, 0, 0, 0.7);
+    background: rgb(250, 249, 249);
+    box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8);
     justify-content: center;
     justify-self: end;
     border-radius: 25px;
-    border: #240000 2px solid;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content min-content min-content;
     gap: 20px;
 }
 
 .cards__item:first-of-type {
     grid-area: item1;
+    grid-template-areas: 
+    "title img"
+    "pr img"
+    "ps img";
 }
 .cards__item:nth-of-type(2) {
     grid-area: item2;
+    grid-template-areas: 
+    "img title"
+    "img pr"
+    "img ps";
 }
 .cards__item:nth-of-type(3) {
     grid-area: item3;
+    grid-template-areas: 
+    "title img"
+    "pr img"
+    "ps img";
 }
 .cards__item:nth-of-type(4) {
     grid-area: item4;
+    grid-template-areas: 
+    "img title"
+    "img pr"
+    "img ps";
 }
 .cards__item:nth-of-type(5) {
     grid-area: item5;
+    grid-template-areas: 
+    "title img"
+    "pr img"
+    "ps img";
 }
 .cards__item:nth-of-type(6) {
     grid-area: item6;
-}
-.cards__item:last-of-type {
-    grid-area: item7;
-    max-width: 100%;
-    margin-top: 20px;
+    grid-template-areas: 
+    "img title"
+    "img pr"
+    "img ps";
 }
 
 @media all and (max-width: 1200px)  {
@@ -52,20 +70,24 @@
         padding: 25px;
     }
 }
-
+@media all and (max-width: 900px)  {
+    .cards__item:first-of-type, .cards__item:nth-of-type(2), .cards__item:nth-of-type(3), .cards__item:nth-of-type(4), .cards__item:nth-of-type(5), .cards__item:nth-of-type(6){
+        grid-template-columns: 1fr;
+        grid-template-rows:min-content min-content min-content min-content;
+        grid-template-areas: 
+        "title"
+        "img"
+        "pr"
+        "ps";
+    }
+}
 @media all and (max-width: 800px)  {
     .cards__item {
-        max-width: 100vw;
-        width: 100%;
         padding: 20px;
-        border-radius: 30px;
     }
 }
 @media all and (max-width: 500px)  {
     .cards__item {
-        max-width: 100vw;
-        width: 100%;
         padding: 15px;
-        border-radius: 20px;
     }
 }

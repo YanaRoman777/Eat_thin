@@ -1,0 +1,40 @@
+.motivation__paragraph {
+    text-align: right;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.motivation__paragraph:last-of-type {
+    margin-block-end: 50px;
+}
+
+@media all and (max-width: 1500px)  {
+    .motivation__paragraph {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .motivation__paragraph {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .motivation__paragraph {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .motivation__paragraph {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

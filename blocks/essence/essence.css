@@ -1,0 +1,32 @@
+.essence {
+    background: #fff no-repeat;
+    background-image: url(../../images/essence.png);
+    background-size: cover;
+    background-position: 100% 50%;
+    min-height: 600px;
+    text-align: center;
+    padding: 60px 100px;
+}
+
+@media all and (max-width: 1500px)  {
+    .essence {
+        padding: 40px 90px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .essence {
+        padding: 40px 60px;
+    }
+}
+
+@media all and (max-width: 800px)  {
+    .essence {
+        padding: 40px;
+    }
+}
+@media all and (max-width: 500px)  {
+    .essence {
+        padding: 20px 20px 10px;
+    }
+}

@@ -4,8 +4,8 @@
     grid-template-areas: 
     "item1 item2";
     gap: 10px;
-    background: #240000;
-    color: #fff;
+    background: linear-gradient( 
+        140deg, rgba(172, 24, 45, 0.4) 10%, rgba(210, 188, 192, .05) 99%);
     padding: 40px 120px;
     box-sizing: border-box;
     justify-content: center;

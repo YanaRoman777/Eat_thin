@@ -1,9 +1,8 @@
 const questionsButton = document.querySelectorAll('.questions__button');
 const questionsParagraph = document.querySelector('.questions__paragraph');
-const formElement = document.querySelector('.form_consultation');
 const formAdd = document.querySelector('#form-add');
 const formAddfooter = document.querySelector('#form-add-footer');
-const buttonElement = document.querySelector('.form__submit');
+const buttonElement = formAdd.querySelector('.form__submit');
 const buttonElementfooter  = formAddfooter.querySelector('.form__submit');
 
 // функция открытия/закрытия ответа
@@ -16,36 +15,35 @@ Array.from(document.querySelectorAll(".questions__item")).forEach(e=>{e.addEvent
   e.style.maxHeight?e.style.maxHeight=null:e.style.maxHeight=e.scrollHeight+"px"}))});
 // функция очистки формы 
 function resetFormAdd() {
-  formElement.reset();
+  formAdd.reset();
 }
 function resetFormAddfooter() {
   formAddfooter.reset();
 }
 
 // submit
-const submitEditProfileForm = evt => {
+const submitForm = evt => {
   evt.preventDefault();
   buttonElement.setAttribute('disabled', true);
   buttonElement.classList.add('.form__submit_inactive');
-  resetFormAdd(formAdd);
-  openPopup();
+  formAdd.reset();
 }
 
-const submitEditProfileFormFooter = evt => {
+const submitFormFooter = evt => {
   evt.preventDefault();
   buttonElementfooter.setAttribute('disabled', true);
   buttonElementfooter.classList.add('.form__submit_inactive');
-  resetFormAddfooter();
+  formAddfooter.reset();
   openPopup();
 }
-formElement.addEventListener('submit', submitEditProfileForm);
-formAddfooter.addEventListener('submit', submitEditProfileFormFooter);
+formAdd.addEventListener('submit', submitForm);
+formAddfooter.addEventListener('submit', submitFormFooter);
 
-const invitationButton = document.querySelectorAll('.invitation__button');
+
+// Открытие попап 
 const popup = document.querySelector('.popup');
 const closeButton = popup.querySelector('.popup__close');
 
-// Открытие попап 
 function openPopup () {
   popup.classList.add('popup_opened');
   document.addEventListener('keydown', closePopupOnEsc);

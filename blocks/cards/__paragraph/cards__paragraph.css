@@ -10,6 +10,17 @@
     justify-self: stretch;
     text-align: center;
 }
+.cards__paragraph:first-of-type {
+    grid-area: pr;
+}
+.cards__paragraph:last-of-type {
+    grid-area: ps;
+    font-weight: bold;
+}
+
+.cards__paragraph:last-of-type  span{
+    color: brown;
+}
 
 @media all and (max-width: 1500px)  {
     .cards__paragraph{

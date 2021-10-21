@@ -1,7 +1,4 @@
 .author {
-    margin-top: -1px;
-    background: linear-gradient(
-    70deg,  rgba(255, 255, 255, .3) 0%, rgba(36, 0, 0, 1) 100%);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content max-content max-content;
