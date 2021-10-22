@@ -2,7 +2,7 @@
     margin-block-start: 10px;
     margin-block-end: 0;
     text-decoration: none;
-    color: #240000;
+    color: #24001e;
     font-size: 17px;
     line-height: 20px;
 }
@@ -12,7 +12,7 @@
 }
 
 .thanks__link span {
-    color: #592525;
+    color: #e700fc;
     font-weight: bold;
 }
 
