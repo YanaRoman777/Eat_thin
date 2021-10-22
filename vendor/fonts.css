@@ -16,12 +16,6 @@
 	font-weight: bold;
 }
 @font-face {
-	font-family: 'Marck Script';
-	src: 
-		url(..//fonts/MarckScript-Regular.ttf) format('truetype');
-	font-weight: bold;
-}
-@font-face {
 	font-family: 'Caveat';
 	src: 
 		url(..//fonts/Caveat-Bold.ttf) format('truetype');

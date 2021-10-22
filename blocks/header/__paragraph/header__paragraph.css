@@ -35,8 +35,7 @@
 @media all and (max-width: 500px)  {
     .header__paragraph {
         max-width: 250px;
-        font-size: 16px;
-        line-height: 22px;
+        line-height: 23px;
         margin-top: 25px;
         justify-self: start;
         margin-bottom: 30px;
