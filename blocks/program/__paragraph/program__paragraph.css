@@ -9,10 +9,6 @@
     text-align: center;
 }
 
-.program__paragraph span {
-    color: #e700fc;
-    font-weight: bold;
-}
 
 @media all and (max-width: 1500px)  {
     .program__paragraph{

@@ -5,7 +5,7 @@
     "item1 item2";
     gap: 10px;
     background: linear-gradient( 
-        140deg, rgba(172, 24, 45, 0.4) 10%, rgba(210, 188, 192, .05) 99%);
+        140deg, rgba(217, 216, 218, 0.933) 10%, rgba(211, 211, 211, 0.05) 99%);
     padding: 40px 120px;
     box-sizing: border-box;
     justify-content: center;
@@ -19,7 +19,6 @@
     align-items:end;
     align-content:end;
     background:none;
-    color: #240000;
     justify-items: center;
 }
 

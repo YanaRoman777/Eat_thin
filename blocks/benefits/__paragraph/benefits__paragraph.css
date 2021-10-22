@@ -15,6 +15,7 @@
     justify-self: end;
     border-radius: 40px;
     width: 100%;
+    text-align: center;
 }
 
 @media all and (max-width: 1500px)  {

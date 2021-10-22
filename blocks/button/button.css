@@ -4,8 +4,9 @@
     height: 54px;
     border: none;
     border-radius: 30px;
-    background-color: rgb(172, 110, 122);
-    box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8);
+    background: rgb(184, 121, 184);
+    box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8) no-repeat;
+    background-size: cover;
     border-color: transparent;
     border-style: solid;
     justify-self: center;
@@ -18,10 +19,16 @@
     justify-self: center;
     text-transform: uppercase;
     vertical-align: center;
+    padding-top: 16px;
+}
+
+.author .button {
+    align-self: center;
 }
 
 .button:hover {
     border: none;
+    opacity: .8;
     box-shadow: 2px 2px 8px rgba(124, 41, 124, 0.8);
     cursor:pointer;
 }

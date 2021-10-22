@@ -26,11 +26,11 @@
 @media all and (max-width: 500px)  {
     .benefits {
         padding: 40px 20px;
+        gap: 25px;
     }
 }
 @media all and (max-width: 400px)  {
     .benefits {
-        height: auto !important;
         align-content: center;
     }
 }

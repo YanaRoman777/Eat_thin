@@ -3,7 +3,6 @@
     margin-block-end: 20px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
     font-size: 28px;
     line-height: 28px;
     text-align: center;
@@ -14,6 +13,7 @@
     min-height: 56px;
 	font-family: 'Caveat Variable';
     margin-left: 70px;
+    font-weight: bold;
 }
 
 @media all and (max-width: 1200px)  {
@@ -35,7 +35,10 @@
 
 @media all and (max-width: 500px)  {
     .program__subtitle{
-        font-size: 20px;
+        font-size: 18px;
         line-height: 21px;
+    }
+    .program__item .program__subtitle {
+        font-size: 24px;
     }
 }

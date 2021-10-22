@@ -6,7 +6,6 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
-    color: #240000;
     width: 100%;
 }
 
@@ -33,5 +32,6 @@
     .author__li {
         font-size: 14px;
         line-height: 21px;
+        margin-block-start: 20px;
     }
 }

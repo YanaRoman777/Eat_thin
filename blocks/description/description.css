@@ -4,8 +4,7 @@
     padding: 40px 120px;
     box-sizing: border-box;
     background: linear-gradient(
-    140deg, rgba(36, 0, 0, .2) 10%, rgba(255, 255, 255, .05) 99%);
-    color: #240000;
+    140deg, rgba(111, 0, 111, 0.2) 10%, rgba(255, 255, 255, 0.05) 99%);
     justify-items: center;
     justify-content: center;
     gap: 20px;

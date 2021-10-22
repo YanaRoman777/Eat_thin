@@ -32,7 +32,7 @@
 
 @media all and (max-width: 500px)  {
     .program__number{
-        top: -20px;
+        top: -10px;
         font-size: 80px;
     }
 }

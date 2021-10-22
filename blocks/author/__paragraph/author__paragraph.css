@@ -6,28 +6,14 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
-    color: #240000;
     max-width: 570px;
     z-index: 3;
-}
-
-.author__paragraph:first-of-type {
-    margin-block-start: 100px;
-}
-.author__paragraph:nth-of-type(2) {
-    max-width: 770px;
-}
-.author__paragraph:last-of-type {
-    max-width: 100%;
 }
 
 @media all and (max-width: 1500px)  {
     .author__paragraph {
         font-size: 22px;
         line-height: 30px;
-    }
-    .author__paragraph:nth-of-type(2) {
-        max-width: 670px;
     }
 }
 @media all and (max-width: 1200px)  {
@@ -38,8 +24,9 @@
 }
 
 @media all and (max-width: 1000px)  {    
-    .author__paragraph:first-of-type {
+    .author__paragraph {
         margin-block-start: 40px;
+        max-width: 370px;
     }
 }
 
@@ -47,6 +34,7 @@
     .author__paragraph{
         font-size: 18px;
         line-height: 24px;
+        max-width: 330px;
     }
 }
 
@@ -55,8 +43,15 @@
         font-size: 14px;
         line-height: 21px;
         margin-block-start: 20px;
+        max-width: 250px;
     } 
-    .author__paragraph:first-of-type {
-        margin-block-start: 20px;
+}
+@media all and (max-width: 350px)  {
+    .author__paragraph{
+        max-width: 220px;
     }
+    .author__paragraph:last-of-type {
+        margin-block-start: 30px;
+        max-width: 100%;
+    } 
 }

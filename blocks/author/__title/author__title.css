@@ -6,13 +6,9 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 40px;
-    color: #240000;
     width: 100%;
-}
-.author__title span {
-    display: block;
+    justify-self: center;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 @media all and (max-width: 1500px)  {
@@ -29,11 +25,7 @@
 
 @media all and (max-width: 700px)  {
     .author__title {
-        text-align: center;
         margin-block-start: 0px;
-    }
-    .author__title span {
-        margin-bottom: 400px;
     }
 }
 
@@ -41,8 +33,5 @@
     .author__title {
         font-size: 20px;
         line-height: 24px;
-    }
-    .author__title span {
-        margin-bottom: 350px;
     }
 }

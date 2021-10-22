@@ -73,13 +73,15 @@
 @import url(../blocks/form/__input-error/form__input-error.css);
 @import url(../blocks/form/__input-error/_active/form__input-error_active.css);
 @import url(../blocks/form/__submit/_inactive/form__submit_inactive.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__paragraph/form__paragraph.css);
 @import url(../blocks/questions/__item/__item-active.css/questions__item-active.css);
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__subtitle/popup__subtitle.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__items/reviews__items.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
@@ -95,7 +97,7 @@
 @import url(../blocks/motivation/__subtitle/motivation__subtitle.css);
 @import url(../blocks/motivation/__paragraph/motivation____paragraph.css);
 @import url(../blocks/bonus/bonus.css);
-@import url();
-@import url();
-@import url();
+@import url(../blocks/bonus/__paragraph/bonus__paragraph.css);
+@import url(../blocks/bonus/__title/bonus__title.css);
+@import url(../blocks/span_color/span_color.css);
 @import url();
