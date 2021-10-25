@@ -2,7 +2,7 @@
     background: no-repeat;
     background-image: url(../../images/aftor_img.png);
     background-size: contain;
-    background-position: 100% 50%;
+    background-position: 100% 80px;
     min-height: 600px;
     display: grid;
     grid-template-columns: 900px;
@@ -32,6 +32,7 @@
 @media all and (max-width: 1100px)  {
     .header {
         grid-template-columns: 500px;
+        background-position: 40vw 70px;
     }
 }
 
@@ -46,12 +47,6 @@
         padding: 40px;
         gap: 40px;
         grid-template-columns: 369px;
-        background-position: 150% 50%;
-    }
-}
-@media all and (max-width: 700px)  {
-    .header {
-        background-position: 40vw 50%;
     }
 }
 @media all and (max-width: 500px)  {

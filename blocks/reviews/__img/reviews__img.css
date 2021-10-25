@@ -6,8 +6,6 @@
     object-fit: contain;
 }
 .reviews__items .reviews__img {
-    width: 300px;
-    height: 400px;
     border: rgb(215, 156, 205) 1px solid;
     box-shadow: 12px 12px 18px rgba(213, 156, 215, 0.5);
     background: #fff;
