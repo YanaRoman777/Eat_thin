@@ -2,7 +2,7 @@
     background: no-repeat;
     background-image: url(../../images/img2.png);
     background-size: contain;
-    background-position: 100% 50%;
+    background-position: 100% 70%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content max-content max-content;
@@ -30,19 +30,19 @@
 @media all and (max-width: 800px)  {
     .author {
         padding: 40px;
-        background-position: 150% 50%;
+        background-position: 150% 70%;
     }
 }
 @media all and (max-width: 700px)  {
     .author {
-        background-position: 37vw 50%;
+        background-position: 37vw 70%;
     }
 }
 
 @media all and (max-width: 500px)  {
     .author {
         padding: 20px;
-        gap: 20px;
+        gap: 30px;
         min-height: 650px;
         background-position: 35vw 50%;
     }

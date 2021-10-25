@@ -1,7 +1,7 @@
 
 .reviews__items {
     display: grid;
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(13, max-content);
     gap: 20px;
     justify-items: start;
     justify-content: start;
