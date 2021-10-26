@@ -13,7 +13,7 @@
 
 @media all and (max-width: 1500px)  {
     .author__title {
-        margin-block-start: 35px;
+        margin-block-start: 25px;
     }
 }
 @media all and (max-width: 900px)  {
